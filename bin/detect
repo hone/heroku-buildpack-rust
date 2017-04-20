@@ -1,8 +1,4 @@
 #!/bin/sh
 
-if [ -f "$1/RustConfig" ] || [ -f "$1/Cargo.toml" ]; then
-    echo "Rust"
-    exit 0
-else
-    exit 1
-fi
+echo "rustup toolchain"
+exit 0
