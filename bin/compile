@@ -9,7 +9,7 @@ BP_DIR=$(cd $(dirname ${0:-}); cd ..; pwd)
 
 # Set defaults for our configuration variables.  Stable Rust is sufficiently
 # stable at this point that I think we can just default it.
-VERSION=stable
+VERSION=beta
 
 # Standard paranoia.
 set -eu
